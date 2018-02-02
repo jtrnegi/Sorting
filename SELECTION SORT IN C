@@ -1,0 +1,26 @@
+#include<stdio.>
+#include<conio.h>
+void main()
+{
+int arr[6]={2,7,5,3,9,6};
+int min,i,j,n=6;                          // n indicate the size of array 
+
+for(i=0;i<n-1;i++)
+{
+  min=i;
+  for(j=i+1;j<n;j++)
+  {
+    if(arr[j]<arr[min])
+    {
+     min=j;                             // updating the index of minimum value
+     }}
+ int temp=a[i];
+ a[i]=a[min];
+ a[min]=temp;                           // replacing the minimum value 
+  }
+  
+printf("THE SORTED FORM OF LIST IS :\n");
+for(i=0;i<n;i++)
+{
+printf("%d \n",arr[i]);                 //displaying sorted list
+}
