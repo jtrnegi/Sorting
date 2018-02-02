@@ -23,4 +23,5 @@ printf("%d \n",arr[i]);
 }
 
 getch();
+
 }
